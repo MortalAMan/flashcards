@@ -27,13 +27,14 @@ class FlashCard extends React.Component {
     return(
       <div>
         <h1>{ title }</h1>
-        <hr />
         <p> { this.state.showAnswer === false ? front : null } </p>
         { this.displayBack() }
         <button onClick={this.toggleAnswer}>Toggle Answer</button>
+        <hr />
       </div>
     );
   }
 }
 
 export default FlashCard;
+        

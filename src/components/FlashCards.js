@@ -7,18 +7,18 @@ class FlashCards extends React.Component {
     this.state = { cards: [
                             {
                               title: 'Card 1', 
-                              front: 'React Method To Show HTML', 
-                              back: 'the render method'
+                              front: 'React Method to show HTML', 
+                              back: 'The Render Method'
                             },
                             {
                               title: 'Card 2', 
-                              front: 'Where do you set state', 
-                              back: 'in the constructor'
+                              front: 'Where do you set state?', 
+                              back: 'In the constructor'
                             },
                             {
                               title: 'Card 3', 
-                              front: 'what happens EVERY time you set state', 
-                              back: 'the render method gets called'
+                              front: 'What happens EVERY time you set state?', 
+                              back: 'The render method gets called'
                             },
                             {
                               title: 'Card 4',
@@ -29,6 +29,16 @@ class FlashCards extends React.Component {
                               title: 'Card 5',
                               front: 'What is a component?',
                               back: 'Components let you split the UI into independent, reusable pieces, and think about each piece in isolation. Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the screen.'
+                            },
+                            {
+                              title: 'Card 6',
+                              front: 'What does the .map method do?',
+                              back: 'Javascript array map() method creates a new array with the results of calling a provided function on every element in this array.'
+                            },
+                            {
+                              title: 'Card 7',
+                              front: 'What is state?',
+                              back: 'The heart of every React component is its “state”, an object that determines how that component renders & behaves. In other words, “state” is what allows you to create components that are dynamic and interactive.'
                             }
                           ] 
                 };
