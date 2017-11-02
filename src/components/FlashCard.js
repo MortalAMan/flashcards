@@ -26,6 +26,7 @@ class FlashCard extends React.Component {
 
     return(
       <div>
+        <hr />
         <h1>{ title }</h1>
         <p> { this.state.showAnswer === false ? front : null } </p>
         { this.displayBack() }

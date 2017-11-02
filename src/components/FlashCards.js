@@ -39,6 +39,11 @@ class FlashCards extends React.Component {
                               title: 'Card 7',
                               front: 'What is state?',
                               back: 'The heart of every React component is its “state”, an object that determines how that component renders & behaves. In other words, “state” is what allows you to create components that are dynamic and interactive.'
+                            },
+                            {
+                              title: 'Card 8',
+                              front: 'What is the DOM?',
+                              back: 'Document Object Model (DOM) is a platform and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure, and style of a document.'
                             }
                           ] 
                 };
